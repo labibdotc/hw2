@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> SpeechX </title>
+        
+        <meta charset = "utf-8" name = "viewport" content = "with=device-width,
+         initial-scale=1.">
+        <link rel = "stylesheet" href = "externalSheet.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,700;1,200;1,600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- add an icon to the tab -->
+        
+    </head>
+    <body>
+            <!-- buttons with links to other pages          (done) -->
+        <section class ="header">
+            <nav>
+                <a href = "home.html"> <img src = "images/uf2qykhxjlduxsn6dtv0.png"></a>
+                <div class = "nav-links" id = "navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href ="home.html">HOME</a></li>
+                        <li><a href ="attend.html">ATTEND</a></li>
+                        <li><a href ="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+
+
+
+                                    <!-- header -->
+        <!-- title with the name of our non-profit       (done)-->
+        <div class="text-box">
+            <h1>World Class Stage for your Speech</h1>
+            <p>Engage with SpeechX in a whole new way. SpeechX Members earn 
+                exclusive access to unforgettable events <br /> with big names from 
+                the SpeechX stage, inspiring conversations with a global 
+                community, and more.</p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+        </div>
+        <!-- JFFE: add facebook and instagram icons on the top left -->
+        
+                        <!-- Page content -->
+        <section class = "sample">
+            <h1> Recent Inspirational Speeches In SpeechX Community</h1>
+            
+            <p><b>How gratitude rewires your brain</b> <br />
+                <i>Christina Costa</i> <br />
+                When a psychologist who studies well-being ends up <br />
+                 with a brain tumor, what happens when she puts her own <br /> 
+                 research into practice? Christina Costa goes beyond the <br/>
+                 "fight" narrative of cancer -- or any formidable personal journey <br/>
+                 -- to highlight the brain benefits of an empowering alternative <br/>
+                 to fostering resilience in the face of unexpected challenges: gratitude.</p>
+            
+            <img src = "images/Screen Shot 2022-02-11 at 8.55.02 PM.png">
+        </section>
+
+                            <!-- footer  -->
+
+
+        <section class = "footer">
+            <h4>
+                About Us</h4>
+            <p> Engage with TED in a whole new way. TED Members earn exclusive access to unforgettable events <br/> with big names from the TED stage, inspiring conversations with a global community, and more.
+                <br /> <b>© SpeechX Conferences, LLC. All rights reserved.</b>
+            </p>
+            <div class = "icons"> 
+                <a href = "https://www.facebook.com/abdulrahman.ahmed.labib"><i class="fa fa-facebook"></i></a>
+                <a href = "https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                <a href = "https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                <a href = "https://www.linkedin.com/in/abdulrahman-labib/"><i class="fa fa-linkedin"></i></a>
+                
+                
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Labib</p>
+        </section>
+        <!-- set a background image with somebody speaking -->
+        <!-- slogan in the middle of the page -->
+        <!-- "Take a look at conferences we hosted" big button -->
+
+                    <!-- JavaScript for toggle menu -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
